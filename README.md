@@ -22,7 +22,7 @@
   3.3. [Data Loading](#data-loading)  
   3.4. [Data Reporting](#data-reporting)
 4. [Credits](#credits)
-5. [Contact](#contact)
+
 
 <a name="introduction"></a>
 ## 🔬 Project Overview 

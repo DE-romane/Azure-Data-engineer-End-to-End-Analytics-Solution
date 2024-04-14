@@ -68,7 +68,7 @@ This project entails a comprehensive data engineering initiative on the Azure cl
 
 You can find the detailed information on the diagram below:
 
-![AzurePipeline](link)
+![AzurePipeline](https://github.com/DE-romane/Azure-Data-engineer-End-to-End-Analytics-Solution/blob/main/AzurePipeline.gif)
 
 <a name="data-ingestion"></a>
 ### 📤 Data Ingestion
@@ -77,12 +77,12 @@ You can find the detailed information on the diagram below:
 
 - Setup the **Resource group** with needed services (Key Vault, Storage Account, Data Factory, Databricks, Synapse Analytics)
 
-![ressource-group]()
+![ressource-group](https://github.com/DE-romane/Azure-Data-engineer-End-to-End-Analytics-Solution/blob/main/ressource-group.PNG)
 
 - Migrated the tables from on-premise SQL Server to Azure Data Lake Storage Gen2.
 
-![Migrated_tables]()
-![df-pipeline]()
+![Migrated_tables](https://github.com/DE-romane/Azure-Data-engineer-End-to-End-Analytics-Solution/blob/main/Migrated_tables.png)
+![df-pipeline](https://github.com/DE-romane/Azure-Data-engineer-End-to-End-Analytics-Solution/blob/main/df-pipeline.PNG)
 
 <a name="data-transformation"></a>
 ### ⚙️ Data Transformation
@@ -90,21 +90,21 @@ You can find the detailed information on the diagram below:
 - Used Spark Cluster in Azure Databricks to clean and refine the raw data.
 - Saved the cleaned data in a Delta format; optimized for further analysis.
 
-![Databricks]()
+![Databricks](https://github.com/DE-romane/Azure-Data-engineer-End-to-End-Analytics-Solution/blob/main/Databricks.jpg)
 
 <a name="data-loading"></a>
 ### 📥 Data Loading
 - Used Azure Synapse Analytics to load the refined data efficiently.
 - Created SQL database and connected it to the data lake.
 
-![synapse-pipeline]()
-![db-synapse]()
+![synapse-pipeline](https://github.com/DE-romane/Azure-Data-engineer-End-to-End-Analytics-Solution/blob/main/synapse-pipeline.PNG)
+![db-synapse](https://github.com/DE-romane/Azure-Data-engineer-End-to-End-Analytics-Solution/blob/main/db-synapse.PNG)
 
 <a name="data-reporting"></a>
 ### 📊 Data Reporting
 - Connected Microsoft Power BI to Azure Synapse, and used the Views of the DB to create interactive and insightful data visualizations.
 
-![PowerBI-dashboard]()
+![PowerBI-dashboard](https://github.com/DE-romane/Azure-Data-engineer-End-to-End-Analytics-Solution/blob/main/PowerBI-dashboard.PNG)
 
 ### 🛠️ Technologies Used
 
